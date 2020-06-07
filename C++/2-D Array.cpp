@@ -1,33 +1,33 @@
-Calculate the hourglass sum for every hourglass in A, then print the maximum hourglass sum.
+// Calculate the hourglass sum for every hourglass in A, then print the maximum hourglass sum.
 
-Input Format
+// Input Format
 
-There are 6 lines of input, where each line contains 6 space-separated integers describing 2D Array A; 
-every value in A will be in the inclusive range of -9 to 9 .
+// There are 6 lines of input, where each line contains 6 space-separated integers describing 2D Array A; 
+// every value in A will be in the inclusive range of -9 to 9 .
 
-Constraints
- -9<= A[i][j] <=9
- -5<= i,j <=5
+// Constraints
+//  -9<= A[i][j] <=9
+//  -5<= i,j <=5
  
 
-Output Format
+// Output Format
 
-Print the largest (maximum) hourglass sum found in A .
+// Print the largest (maximum) hourglass sum found in A .
 
-Sample Input
+// Sample Input
 
-1 1 1 0 0 0
-0 1 0 0 0 0
-1 1 1 0 0 0
-0 0 2 4 4 0
-0 0 0 2 0 0
-0 0 1 2 4 0
+// 1 1 1 0 0 0
+// 0 1 0 0 0 0
+// 1 1 1 0 0 0
+// 0 0 2 4 4 0
+// 0 0 0 2 0 0
+// 0 0 1 2 4 0
 
-Sample Output
+// Sample Output
 
-19
+// 19
 
-CODE:-
+// CODE:-
 
 #include <bits/stdc++.h>
 #include <cstdio>
