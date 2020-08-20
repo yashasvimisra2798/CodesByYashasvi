@@ -11,6 +11,7 @@ class Solve{
     public:
     void moveZeroes(vector<int>& nums)
     {
+        // m is the index where last non zero element occured
         int n=nums.size(),m=0;
         for(int i=0; i<n; i++)
         {
