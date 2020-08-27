@@ -1,0 +1,12 @@
+// C++ Program to demostrate sorting using STL algorithms
+
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    int arr[] = {2,3,8,9,6,5}
+}
